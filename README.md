@@ -13,4 +13,4 @@ An image of the app screen-shots of the application.
 
 ![Image of some charts](https://res.cloudinary.com/dqv9mfbvt/image/upload/v1598535311/IMG-2917_mmvuho.png)
 
-![Other part of application](https://res.cloudinary.com/dqv9mfbvt/image/upload/v1598535310/IMG-2918_lypthp.png)
+![Another part of application](https://res.cloudinary.com/dqv9mfbvt/image/upload/v1598535310/IMG-2918_lypthp.png)
