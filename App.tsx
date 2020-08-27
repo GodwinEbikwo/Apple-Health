@@ -1,21 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import React from "react";
+import LoadAssets from "./src/components/LoadAssets";
+import Application from "./src/routes";
+
+const fonts = {
+  Bold: require("./assets/fonts/DMSans-Bold.ttf"),
+  Medium: require("./assets/fonts/DMSans-Medium.ttf"),
+  Regular: require("./assets/fonts/DMSans-Regular.ttf"),
+};
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+    <LoadAssets fonts={fonts}>
       <StatusBar style="auto" />
-    </View>
+      <Application />
+    </LoadAssets>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
