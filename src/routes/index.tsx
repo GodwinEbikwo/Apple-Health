@@ -101,7 +101,7 @@ const AppNavigator = () => {
         inactiveTintColor: "grey",
         style: {
           backgroundColor: "rgba(12, 13, 53, 0.05)",
-          borderTopColor: "#1c1c1e",
+          borderTopColor: "#999",
           padding: 5,
           fontFamily: "Regular",
         },
